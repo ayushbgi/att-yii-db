@@ -92,6 +92,19 @@ else {
     }
 
 
+    public function actionDbfeatch()
+    {
+
+      $users = Yii::$app->db->createCommand('SELECT * FROM users')
+     ->queryAll();
+
+    //  var_dump($users);
+    print_r($users);
+    //echo $users[0][Id];
+      return $this->render('dbfeatch');
+    }
+
+
     /**
      * Login action.
      *
@@ -175,9 +188,5 @@ else {
         return $this->render('about');
     }
 
-    public function actionLoginDb(){
-      $users = Yii::$app->db->createCommand('SELECT * FROM users')
-     ->queryAll();
-      var_dump($users);
-    }
+
 }

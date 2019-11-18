@@ -12533,3 +12533,1718 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1574078162.077
     'REQUEST_TIME' => 1574078162
 ]
+2019-11-18 13:48:31 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/dbfeatch in D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#1 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-11-18 13:48:31 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50444'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/dbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site/dbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081311.027
+    'REQUEST_TIME' => 1574081311
+]
+2019-11-18 13:50:02 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][Error] Error: Access to undeclared static property: Yii::$users in D:\xampp\htdocs\att-yii-db\views\site\dbfeatch.php:11
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('dbfeatch', Array, Object(app\controllers\SiteController))
+#4 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(97): yii\base\Controller->render('dbfeatch')
+#5 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#9 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#10 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2019-11-18 13:50:02 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50468'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/dbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site/dbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081402.425
+    'REQUEST_TIME' => 1574081402
+]
+2019-11-18 13:50:03 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][Error] Error: Access to undeclared static property: Yii::$users in D:\xampp\htdocs\att-yii-db\views\site\dbfeatch.php:11
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('dbfeatch', Array, Object(app\controllers\SiteController))
+#4 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(97): yii\base\Controller->render('dbfeatch')
+#5 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#9 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#10 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2019-11-18 13:50:03 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50469'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/dbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site/dbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081403.356
+    'REQUEST_TIME' => 1574081403
+]
+2019-11-18 13:50:11 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][Error] Error: Access to undeclared static property: Yii::$users in D:\xampp\htdocs\att-yii-db\views\site\dbfeatch.php:11
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('dbfeatch', Array, Object(app\controllers\SiteController))
+#4 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(97): yii\base\Controller->render('dbfeatch')
+#5 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#9 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#10 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2019-11-18 13:50:11 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50477'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081411.26
+    'REQUEST_TIME' => 1574081411
+]
+2019-11-18 13:52:15 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:100
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(100): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:52:15 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50502'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081535.83
+    'REQUEST_TIME' => 1574081535
+]
+2019-11-18 13:52:16 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:100
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(100): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:52:16 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50503'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081536.777
+    'REQUEST_TIME' => 1574081536
+]
+2019-11-18 13:52:22 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:100
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(100): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:52:22 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50509'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081542.728
+    'REQUEST_TIME' => 1574081542
+]
+2019-11-18 13:52:23 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:100
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(100): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 100, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:52:23 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50508'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081543.389
+    'REQUEST_TIME' => 1574081543
+]
+2019-11-18 13:53:02 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:101
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(101): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 101, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:53:02 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50546'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081582.512
+    'REQUEST_TIME' => 1574081582
+]
+2019-11-18 13:54:22 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][Error] Error: Function name must be a string in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#1 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2019-11-18 13:54:22 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50637'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081662.592
+    'REQUEST_TIME' => 1574081662
+]
+2019-11-18 13:54:50 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected '$users' (T_VARIABLE) in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('dbfeatch')
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:54:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50669'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081690.767
+    'REQUEST_TIME' => 1574081690
+]
+2019-11-18 13:55:42 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant name - assumed 'name' in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(102): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\xampp\\htdocs...', 102, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:55:42 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50742'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081742.768
+    'REQUEST_TIME' => 1574081742
+]
+2019-11-18 13:56:49 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant name - assumed 'name' in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(102): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\xampp\\htdocs...', 102, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:56:49 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50824'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081809.484
+    'REQUEST_TIME' => 1574081809
+]
+2019-11-18 13:56:50 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant name - assumed 'name' in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(102): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\xampp\\htdocs...', 102, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:56:50 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50825'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081810.471
+    'REQUEST_TIME' => 1574081810
+]
+2019-11-18 13:56:55 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: name in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(102): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 102, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:56:55 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50836'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081815.942
+    'REQUEST_TIME' => 1574081815
+]
+2019-11-18 13:56:57 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: name in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(102): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 102, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:56:57 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50837'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081817.428
+    'REQUEST_TIME' => 1574081817
+]
+2019-11-18 13:59:00 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:103
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(103): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 103, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:59:00 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50964'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081940.206
+    'REQUEST_TIME' => 1574081940
+]
+2019-11-18 13:59:01 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:103
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(103): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 103, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:59:01 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50965'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081941
+    'REQUEST_TIME' => 1574081941
+]
+2019-11-18 13:59:19 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant Id - assumed 'Id' in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:103
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(103): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\xampp\\htdocs...', 103, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:59:19 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'cross-site'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '50983'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081959.61
+    'REQUEST_TIME' => 1574081959
+]
+2019-11-18 13:59:29 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant Id - assumed 'Id' in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:103
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(103): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\xampp\\htdocs...', 103, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 13:59:29 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'cross-site'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '51007'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574081969.829
+    'REQUEST_TIME' => 1574081969
+]
+2019-11-18 14:00:10 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant id - assumed 'id' in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(102): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\xampp\\htdocs...', 102, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 14:00:10 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'cross-site'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '51051'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574082010.138
+    'REQUEST_TIME' => 1574082010
+]
+2019-11-18 14:02:08 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant id - assumed 'id' in D:\xampp\htdocs\att-yii-db\controllers\SiteController.php:102
+Stack trace:
+#0 D:\xampp\htdocs\att-yii-db\controllers\SiteController.php(102): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\xampp\\htdocs...', 102, Array)
+#1 [internal function]: app\controllers\SiteController->actionDbfeatch()
+#2 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('dbfeatch', Array)
+#5 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/dbfeatch', Array)
+#6 D:\xampp\htdocs\att-yii-db\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\att-yii-db\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-11-18 14:02:08 [::1][-][g0gtuf0i0b06vfnogjt8qgpkpm][info][application] $_GET = [
+    'r' => 'site/dbfeatch'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN\";}'
+    'PHPSESSID' => 'g0gtuf0i0b06vfnogjt8qgpkpm'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'goxumiw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'cross-site'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=ac90fcfab83f7f0c76d3136b8a10ffbed2e97cdd6e320191204b083b219fd78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SNYF2JDN4fG_N4NovveRW2kFbUtzFjTN%22%3B%7D; PHPSESSID=g0gtuf0i0b06vfnogjt8qgpkpm'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\php73;C:\\Users\\Intern\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Intern\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Intern\\composer;C:\\xampp\\php;C:\\Users\\Intern\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Intern\\AppData\\Local\\Programs\\Git\\cmd, C:\\apache24\\php /M;C:\\Users\\Intern\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Intern\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/att-yii-db/web/index.php'
+    'REMOTE_PORT' => '51170'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdbfeatch'
+    'REQUEST_URI' => '/att-yii-db/web/index.php?r=site%2Fdbfeatch'
+    'SCRIPT_NAME' => '/att-yii-db/web/index.php'
+    'PHP_SELF' => '/att-yii-db/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1574082128.737
+    'REQUEST_TIME' => 1574082128
+]
