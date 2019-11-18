@@ -13,7 +13,7 @@ $this->title = 'My Yii Application';
 
         <p class="lead">This is Yii-powered application.</p>
 
-        <p><a class="btn btn-lg btn-success" href="#">Get started with Yii</a></p>
+        <!-- <p><a class="btn btn-lg btn-success" href="#">Get started with Yii</a></p> -->
     </div>
 
     <div class="body-content">
