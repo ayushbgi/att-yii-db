@@ -97,9 +97,12 @@ else {
 
       $users = Yii::$app->db->createCommand('SELECT * FROM users')
      ->queryAll();
-
+foreach($users as $user) {
+  echo $user['name'].'<br />';
+}
     //  var_dump($users);
-    print_r($users);
+    echo $users[0]['name'];
+    //print_r($users);
     //echo $users[0][Id];
       return $this->render('dbfeatch');
     }
